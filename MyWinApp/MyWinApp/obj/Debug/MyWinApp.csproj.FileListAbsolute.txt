@@ -8,3 +8,14 @@ E:\249512\249512\MyWinApp\MyWinApp\obj\Debug\MyWinApp.csproj.GenerateResource.ca
 E:\249512\249512\MyWinApp\MyWinApp\obj\Debug\MyWinApp.csproj.CoreCompileInputs.cache
 E:\249512\249512\MyWinApp\MyWinApp\obj\Debug\MyWinApp.exe
 E:\249512\249512\MyWinApp\MyWinApp\obj\Debug\MyWinApp.pdb
+E:\249512\249512\MyWinApp\MyWinApp\obj\Debug\MyWinApp.ArrayForm.resources
+E:\Important File\Programs\C#\BITM\249512\MyWinApp\MyWinApp\bin\Debug\MyWinApp.exe.config
+E:\Important File\Programs\C#\BITM\249512\MyWinApp\MyWinApp\bin\Debug\MyWinApp.exe
+E:\Important File\Programs\C#\BITM\249512\MyWinApp\MyWinApp\bin\Debug\MyWinApp.pdb
+E:\Important File\Programs\C#\BITM\249512\MyWinApp\MyWinApp\obj\Debug\MyWinApp.ArrayForm.resources
+E:\Important File\Programs\C#\BITM\249512\MyWinApp\MyWinApp\obj\Debug\MyWinApp.HomeForm.resources
+E:\Important File\Programs\C#\BITM\249512\MyWinApp\MyWinApp\obj\Debug\MyWinApp.Properties.Resources.resources
+E:\Important File\Programs\C#\BITM\249512\MyWinApp\MyWinApp\obj\Debug\MyWinApp.csproj.GenerateResource.cache
+E:\Important File\Programs\C#\BITM\249512\MyWinApp\MyWinApp\obj\Debug\MyWinApp.exe
+E:\Important File\Programs\C#\BITM\249512\MyWinApp\MyWinApp\obj\Debug\MyWinApp.pdb
+E:\Important File\Programs\C#\BITM\249512\MyWinApp\MyWinApp\obj\Debug\MyWinApp.csprojResolveAssemblyReference.cache
