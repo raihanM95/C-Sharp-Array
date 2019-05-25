@@ -102,22 +102,42 @@ namespace MyWinApp
 
         private void DuplicateShowButton_Click(object sender, EventArgs e)
         {
-            string message = "";
+            int[] array2 = new int[size];
+            int[] array3 = new int[size];
+            int index, index2;
 
-            for (int index = 0; index < number.Length; index++)
+            int mm = 1, ctr = 0;
+
+            /* copy in other array */
+            for (index = 0; index < number.Length; index++)
             {
-                for(int j = index; j < number.Length; j++)
-                {
-                    if (number[index] == number[j])
-                    {
-                        
-                        break;
-                    }
-                    message = message + "Index: " + "[" + index + "]" + " Value du: " + number[index] + "\n";
-                }
+                array2[index] = number[index];
+                array3[index] = 0;
             }
 
-            showRichTextBox.Text = message;
+            /* mark the elements are duplicate */
+            for (index = 0; index < number.Length; index++)
+            {
+                for (index2 = 0; index2 < number.Length; index2++)
+                {
+                    if (number[index] == array2[index2])
+                    {
+                        array3[index2] = mm;
+                        mm++;
+                    }
+                }
+                mm = 1;
+            }
+
+            /* prints the array */
+            for (index = 0; index < number.Length; index++)
+            {
+                if (array3[index] == 2)
+                {
+                    ctr++;
+                }
+            }
+            showRichTextBox.Text = "The number of duplicate elements is : " + ctr;
         }
 
         private void UniqueShowButton_Click(object sender, EventArgs e)
