@@ -25,19 +25,19 @@ namespace MyWinApp
             numbers.Add(Convert.ToInt32(numberTextBox.Text));
             names.Add(nameTextBox.Text);
 
-            string message = "For\n";
+            string message = "Use for loop\n";
 
             for (int index = 0; index < numbers.Count; index++)
             {
-                message = message + names[index] + " " + numbers[index] + "\n";
+                message = message + "Number: " + numbers[index] + ", Name: " + names[index] + "\n\n";
             }
 
-            message = message + "Foreach\n";
+            message = message + "Use foreach loop\n";
 
             int i = 0;
             foreach(int number in numbers)
             {
-                message = message + names[i] + " " + number + "\n";
+                message = message + "Number: " + number + ", Name: " + names[i] + "\n";
                 i++;
             }
 

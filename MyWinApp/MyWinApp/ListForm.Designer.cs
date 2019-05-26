@@ -28,22 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.InsertNewValueButton = new System.Windows.Forms.Button();
             this.numberTextBox = new System.Windows.Forms.TextBox();
             this.AddButton = new System.Windows.Forms.Button();
             this.showRichTextBox = new System.Windows.Forms.RichTextBox();
             this.ShowButton = new System.Windows.Forms.Button();
             this.nameTextBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
-            // 
-            // InsertNewValueButton
-            // 
-            this.InsertNewValueButton.Location = new System.Drawing.Point(344, 40);
-            this.InsertNewValueButton.Name = "InsertNewValueButton";
-            this.InsertNewValueButton.Size = new System.Drawing.Size(75, 23);
-            this.InsertNewValueButton.TabIndex = 25;
-            this.InsertNewValueButton.Text = "Insert New";
-            this.InsertNewValueButton.UseVisualStyleBackColor = true;
             // 
             // numberTextBox
             // 
@@ -72,7 +62,7 @@
             // 
             // ShowButton
             // 
-            this.ShowButton.Location = new System.Drawing.Point(344, 82);
+            this.ShowButton.Location = new System.Drawing.Point(344, 103);
             this.ShowButton.Name = "ShowButton";
             this.ShowButton.Size = new System.Drawing.Size(75, 23);
             this.ShowButton.TabIndex = 14;
@@ -92,7 +82,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(494, 383);
             this.Controls.Add(this.nameTextBox);
-            this.Controls.Add(this.InsertNewValueButton);
             this.Controls.Add(this.numberTextBox);
             this.Controls.Add(this.AddButton);
             this.Controls.Add(this.ShowButton);
@@ -105,8 +94,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button InsertNewValueButton;
         private System.Windows.Forms.TextBox numberTextBox;
         private System.Windows.Forms.Button AddButton;
         private System.Windows.Forms.RichTextBox showRichTextBox;
