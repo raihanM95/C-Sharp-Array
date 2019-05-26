@@ -25,15 +25,7 @@ namespace MyWinApp
 
         private void ShowButton_Click(object sender, EventArgs e)
         {
-            string message = "";
-
-            for(int index = 0; index < number.Length; index++)
-            {
-                if (number[index] != 0)
-                    message = message + "Index: " + "[" + index + "]" + " Value: " + number[index] + "\n";
-            }
-
-            showRichTextBox.Text = message;
+            showRichTextBox.Text = Show();
         }
 
         private void AddButton_Click(object sender, EventArgs e)
@@ -41,15 +33,7 @@ namespace MyWinApp
             number[index] = Convert.ToInt32(numberTextBox.Text);
             index++;
 
-            string message = "";
-
-            for (int index = 0; index < number.Length; index++)
-            {
-                if (number[index] != 0)
-                    message = message + "Index: " + "[" + index + "]" + " Value: " + number[index] + "\n";
-            }
-
-            showRichTextBox.Text = message;
+            showRichTextBox.Text = Show();
         }
 
         private void ReverseButton_Click(object sender, EventArgs e)
@@ -187,13 +171,13 @@ namespace MyWinApp
             min = number[0];
             string message = "";
 
-            for (int index = 1; index < number.Length; index++)
+            for (int index = 0; index < number.Length; index++)
             {
                 if (number[index] > max)
                 {
                     max = number[index];
                 }
-                if (number[index] < min)
+                if (number[index] < min && number[index] !=0)
                 {
                     min = number[index];
                 }
@@ -319,6 +303,19 @@ namespace MyWinApp
             showRichTextBox.SelectedText = "\n\nAfter Insert the list is :\n ";
             for (index = 0; index <= number.Length; index++)
                 showRichTextBox.SelectedText = number[index] + "";
+        }
+
+        private string Show()
+        {
+            string message = "";
+
+            for (int index = 0; index < number.Length; index++)
+            {
+                if (number[index] != 0)
+                    message = message + "Index: " + "[" + index + "]" + " Value: " + number[index] + "\n";
+            }
+
+            return message;
         }
     }
 }

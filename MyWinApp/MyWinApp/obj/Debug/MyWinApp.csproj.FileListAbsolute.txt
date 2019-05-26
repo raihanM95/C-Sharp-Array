@@ -19,3 +19,14 @@ E:\Important File\Programs\C#\BITM\249512\MyWinApp\MyWinApp\obj\Debug\MyWinApp.c
 E:\Important File\Programs\C#\BITM\249512\MyWinApp\MyWinApp\obj\Debug\MyWinApp.exe
 E:\Important File\Programs\C#\BITM\249512\MyWinApp\MyWinApp\obj\Debug\MyWinApp.pdb
 E:\Important File\Programs\C#\BITM\249512\MyWinApp\MyWinApp\obj\Debug\MyWinApp.csprojResolveAssemblyReference.cache
+E:\249512\C-Sharp-Array\MyWinApp\MyWinApp\bin\Debug\MyWinApp.exe.config
+E:\249512\C-Sharp-Array\MyWinApp\MyWinApp\bin\Debug\MyWinApp.exe
+E:\249512\C-Sharp-Array\MyWinApp\MyWinApp\bin\Debug\MyWinApp.pdb
+E:\249512\C-Sharp-Array\MyWinApp\MyWinApp\obj\Debug\MyWinApp.csprojAssemblyReference.cache
+E:\249512\C-Sharp-Array\MyWinApp\MyWinApp\obj\Debug\MyWinApp.ArrayForm.resources
+E:\249512\C-Sharp-Array\MyWinApp\MyWinApp\obj\Debug\MyWinApp.HomeForm.resources
+E:\249512\C-Sharp-Array\MyWinApp\MyWinApp\obj\Debug\MyWinApp.Properties.Resources.resources
+E:\249512\C-Sharp-Array\MyWinApp\MyWinApp\obj\Debug\MyWinApp.csproj.GenerateResource.cache
+E:\249512\C-Sharp-Array\MyWinApp\MyWinApp\obj\Debug\MyWinApp.csproj.CoreCompileInputs.cache
+E:\249512\C-Sharp-Array\MyWinApp\MyWinApp\obj\Debug\MyWinApp.exe
+E:\249512\C-Sharp-Array\MyWinApp\MyWinApp\obj\Debug\MyWinApp.pdb
