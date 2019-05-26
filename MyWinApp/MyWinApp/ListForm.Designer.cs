@@ -33,6 +33,7 @@
             this.AddButton = new System.Windows.Forms.Button();
             this.showRichTextBox = new System.Windows.Forms.RichTextBox();
             this.ShowButton = new System.Windows.Forms.Button();
+            this.nameTextBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // InsertNewValueButton
@@ -63,9 +64,9 @@
             // 
             // showRichTextBox
             // 
-            this.showRichTextBox.Location = new System.Drawing.Point(76, 82);
+            this.showRichTextBox.Location = new System.Drawing.Point(76, 105);
             this.showRichTextBox.Name = "showRichTextBox";
-            this.showRichTextBox.Size = new System.Drawing.Size(245, 261);
+            this.showRichTextBox.Size = new System.Drawing.Size(245, 238);
             this.showRichTextBox.TabIndex = 13;
             this.showRichTextBox.Text = "";
             // 
@@ -78,11 +79,19 @@
             this.ShowButton.Text = "Show";
             this.ShowButton.UseVisualStyleBackColor = true;
             // 
+            // nameTextBox
+            // 
+            this.nameTextBox.Location = new System.Drawing.Point(76, 66);
+            this.nameTextBox.Name = "nameTextBox";
+            this.nameTextBox.Size = new System.Drawing.Size(154, 20);
+            this.nameTextBox.TabIndex = 26;
+            // 
             // ListForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(494, 383);
+            this.Controls.Add(this.nameTextBox);
             this.Controls.Add(this.InsertNewValueButton);
             this.Controls.Add(this.numberTextBox);
             this.Controls.Add(this.AddButton);
@@ -102,5 +111,6 @@
         private System.Windows.Forms.Button AddButton;
         private System.Windows.Forms.RichTextBox showRichTextBox;
         private System.Windows.Forms.Button ShowButton;
+        private System.Windows.Forms.TextBox nameTextBox;
     }
 }

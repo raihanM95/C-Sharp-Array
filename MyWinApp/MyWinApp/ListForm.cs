@@ -12,6 +12,9 @@ namespace MyWinApp
 {
     public partial class ListForm : Form
     {
+        List<int> numbers = new List<int>();
+        List<string> names = new List<string>();
+
         public ListForm()
         {
             InitializeComponent();
@@ -19,23 +22,23 @@ namespace MyWinApp
 
         private void AddButton_Click(object sender, EventArgs e)
         {
-            List<int> numbers = new List<int>();
-            numbers.Add(1);
-            numbers.Add(2);
-            numbers.Add(3);
+            numbers.Add(Convert.ToInt32(numberTextBox.Text));
+            names.Add(nameTextBox.Text);
 
             string message = "For\n";
 
-            for(int index = 0; index < numbers.Count; index++)
+            for (int index = 0; index < numbers.Count; index++)
             {
-                message = message + numbers[index] + "\n";
+                message = message + names[index] + " " + numbers[index] + "\n";
             }
 
             message = message + "Foreach\n";
 
+            int i = 0;
             foreach(int number in numbers)
             {
-                message = message + number + "\n";
+                message = message + names[i] + " " + number + "\n";
+                i++;
             }
 
             showRichTextBox.Text = message;
