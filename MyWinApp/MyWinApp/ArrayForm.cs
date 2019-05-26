@@ -304,7 +304,7 @@ namespace MyWinApp
             for (index = 0; index <= number.Length; index++)
                 showRichTextBox.SelectedText = number[index] + "";
         }
-
+         
         private string Show()
         {
             string message = "";

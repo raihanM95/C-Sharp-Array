@@ -45,19 +45,17 @@
             // 
             // showRichTextBox
             // 
-            this.showRichTextBox.Location = new System.Drawing.Point(52, 132);
-            this.showRichTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.showRichTextBox.Location = new System.Drawing.Point(35, 86);
             this.showRichTextBox.Name = "showRichTextBox";
-            this.showRichTextBox.Size = new System.Drawing.Size(366, 400);
+            this.showRichTextBox.Size = new System.Drawing.Size(245, 261);
             this.showRichTextBox.TabIndex = 0;
             this.showRichTextBox.Text = "";
             // 
             // ShowButton
             // 
-            this.ShowButton.Location = new System.Drawing.Point(454, 132);
-            this.ShowButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.ShowButton.Location = new System.Drawing.Point(303, 86);
             this.ShowButton.Name = "ShowButton";
-            this.ShowButton.Size = new System.Drawing.Size(112, 35);
+            this.ShowButton.Size = new System.Drawing.Size(75, 23);
             this.ShowButton.TabIndex = 1;
             this.ShowButton.Text = "Show";
             this.ShowButton.UseVisualStyleBackColor = true;
@@ -65,10 +63,9 @@
             // 
             // AddButton
             // 
-            this.AddButton.Location = new System.Drawing.Point(308, 68);
-            this.AddButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.AddButton.Location = new System.Drawing.Point(205, 44);
             this.AddButton.Name = "AddButton";
-            this.AddButton.Size = new System.Drawing.Size(112, 35);
+            this.AddButton.Size = new System.Drawing.Size(75, 23);
             this.AddButton.TabIndex = 2;
             this.AddButton.Text = "Add";
             this.AddButton.UseVisualStyleBackColor = true;
@@ -76,18 +73,16 @@
             // 
             // numberTextBox
             // 
-            this.numberTextBox.Location = new System.Drawing.Point(52, 68);
-            this.numberTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.numberTextBox.Location = new System.Drawing.Point(35, 44);
             this.numberTextBox.Name = "numberTextBox";
-            this.numberTextBox.Size = new System.Drawing.Size(229, 26);
+            this.numberTextBox.Size = new System.Drawing.Size(154, 20);
             this.numberTextBox.TabIndex = 3;
             // 
             // ReverseButton
             // 
-            this.ReverseButton.Location = new System.Drawing.Point(454, 177);
-            this.ReverseButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.ReverseButton.Location = new System.Drawing.Point(303, 115);
             this.ReverseButton.Name = "ReverseButton";
-            this.ReverseButton.Size = new System.Drawing.Size(112, 35);
+            this.ReverseButton.Size = new System.Drawing.Size(75, 23);
             this.ReverseButton.TabIndex = 4;
             this.ReverseButton.Text = "Reverse";
             this.ReverseButton.UseVisualStyleBackColor = true;
@@ -95,10 +90,9 @@
             // 
             // SumButton
             // 
-            this.SumButton.Location = new System.Drawing.Point(454, 223);
-            this.SumButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.SumButton.Location = new System.Drawing.Point(303, 145);
             this.SumButton.Name = "SumButton";
-            this.SumButton.Size = new System.Drawing.Size(112, 35);
+            this.SumButton.Size = new System.Drawing.Size(75, 23);
             this.SumButton.TabIndex = 5;
             this.SumButton.Text = "Sum";
             this.SumButton.UseVisualStyleBackColor = true;
@@ -106,10 +100,9 @@
             // 
             // CopyArrayButton
             // 
-            this.CopyArrayButton.Location = new System.Drawing.Point(454, 269);
-            this.CopyArrayButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.CopyArrayButton.Location = new System.Drawing.Point(303, 175);
             this.CopyArrayButton.Name = "CopyArrayButton";
-            this.CopyArrayButton.Size = new System.Drawing.Size(112, 35);
+            this.CopyArrayButton.Size = new System.Drawing.Size(75, 23);
             this.CopyArrayButton.TabIndex = 6;
             this.CopyArrayButton.Text = "Copy Array";
             this.CopyArrayButton.UseVisualStyleBackColor = true;
@@ -117,10 +110,9 @@
             // 
             // DuplicateShowButton
             // 
-            this.DuplicateShowButton.Location = new System.Drawing.Point(454, 315);
-            this.DuplicateShowButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.DuplicateShowButton.Location = new System.Drawing.Point(303, 205);
             this.DuplicateShowButton.Name = "DuplicateShowButton";
-            this.DuplicateShowButton.Size = new System.Drawing.Size(112, 35);
+            this.DuplicateShowButton.Size = new System.Drawing.Size(75, 23);
             this.DuplicateShowButton.TabIndex = 7;
             this.DuplicateShowButton.Text = "Duplicate";
             this.DuplicateShowButton.UseVisualStyleBackColor = true;
@@ -128,10 +120,9 @@
             // 
             // UniqueShowButton
             // 
-            this.UniqueShowButton.Location = new System.Drawing.Point(454, 362);
-            this.UniqueShowButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.UniqueShowButton.Location = new System.Drawing.Point(303, 235);
             this.UniqueShowButton.Name = "UniqueShowButton";
-            this.UniqueShowButton.Size = new System.Drawing.Size(112, 35);
+            this.UniqueShowButton.Size = new System.Drawing.Size(75, 23);
             this.UniqueShowButton.TabIndex = 8;
             this.UniqueShowButton.Text = "Unique";
             this.UniqueShowButton.UseVisualStyleBackColor = true;
@@ -139,10 +130,9 @@
             // 
             // MaxMinButton
             // 
-            this.MaxMinButton.Location = new System.Drawing.Point(454, 407);
-            this.MaxMinButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.MaxMinButton.Location = new System.Drawing.Point(303, 265);
             this.MaxMinButton.Name = "MaxMinButton";
-            this.MaxMinButton.Size = new System.Drawing.Size(112, 35);
+            this.MaxMinButton.Size = new System.Drawing.Size(75, 23);
             this.MaxMinButton.TabIndex = 9;
             this.MaxMinButton.Text = "Max/Min";
             this.MaxMinButton.UseVisualStyleBackColor = true;
@@ -150,10 +140,9 @@
             // 
             // EvenOddButton
             // 
-            this.EvenOddButton.Location = new System.Drawing.Point(454, 452);
-            this.EvenOddButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.EvenOddButton.Location = new System.Drawing.Point(303, 294);
             this.EvenOddButton.Name = "EvenOddButton";
-            this.EvenOddButton.Size = new System.Drawing.Size(112, 35);
+            this.EvenOddButton.Size = new System.Drawing.Size(75, 23);
             this.EvenOddButton.TabIndex = 10;
             this.EvenOddButton.Text = "Even/Odd";
             this.EvenOddButton.UseVisualStyleBackColor = true;
@@ -161,10 +150,9 @@
             // 
             // AscDescButton
             // 
-            this.AscDescButton.Location = new System.Drawing.Point(454, 497);
-            this.AscDescButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.AscDescButton.Location = new System.Drawing.Point(303, 323);
             this.AscDescButton.Name = "AscDescButton";
-            this.AscDescButton.Size = new System.Drawing.Size(112, 35);
+            this.AscDescButton.Size = new System.Drawing.Size(75, 23);
             this.AscDescButton.TabIndex = 11;
             this.AscDescButton.Text = "ASC/DESC";
             this.AscDescButton.UseVisualStyleBackColor = true;
@@ -172,10 +160,9 @@
             // 
             // InsertNewValueButton
             // 
-            this.InsertNewValueButton.Location = new System.Drawing.Point(454, 68);
-            this.InsertNewValueButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.InsertNewValueButton.Location = new System.Drawing.Point(303, 44);
             this.InsertNewValueButton.Name = "InsertNewValueButton";
-            this.InsertNewValueButton.Size = new System.Drawing.Size(112, 35);
+            this.InsertNewValueButton.Size = new System.Drawing.Size(75, 23);
             this.InsertNewValueButton.TabIndex = 12;
             this.InsertNewValueButton.Text = "Insert New";
             this.InsertNewValueButton.UseVisualStyleBackColor = true;
@@ -183,9 +170,9 @@
             // 
             // ArrayForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(700, 633);
+            this.ClientSize = new System.Drawing.Size(467, 411);
             this.Controls.Add(this.InsertNewValueButton);
             this.Controls.Add(this.AscDescButton);
             this.Controls.Add(this.EvenOddButton);
@@ -199,7 +186,6 @@
             this.Controls.Add(this.AddButton);
             this.Controls.Add(this.ShowButton);
             this.Controls.Add(this.showRichTextBox);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "ArrayForm";
             this.Text = "Array Form";
             this.ResumeLayout(false);

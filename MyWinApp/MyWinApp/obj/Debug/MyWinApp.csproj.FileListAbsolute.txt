@@ -30,3 +30,4 @@ E:\249512\C-Sharp-Array\MyWinApp\MyWinApp\obj\Debug\MyWinApp.csproj.GenerateReso
 E:\249512\C-Sharp-Array\MyWinApp\MyWinApp\obj\Debug\MyWinApp.csproj.CoreCompileInputs.cache
 E:\249512\C-Sharp-Array\MyWinApp\MyWinApp\obj\Debug\MyWinApp.exe
 E:\249512\C-Sharp-Array\MyWinApp\MyWinApp\obj\Debug\MyWinApp.pdb
+E:\249512\C-Sharp-Array\MyWinApp\MyWinApp\obj\Debug\MyWinApp.ListForm.resources
