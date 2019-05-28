@@ -47,3 +47,4 @@ E:\Important File\Programs\C#\BITM\249512\MyWinApp\MyWinApp\obj\Debug\MyWinApp.C
 E:\Important File\Programs\C#\BITM\249512\MyWinApp\MyWinApp\obj\Debug\MyWinApp.ListForm.resources
 E:\Important File\Programs\C#\BITM\249512\MyWinApp\MyWinApp\obj\Debug\MyWinApp.csprojAssemblyReference.cache
 E:\Important File\Programs\C#\BITM\249512\MyWinApp\MyWinApp\obj\Debug\MyWinApp.csproj.CoreCompileInputs.cache
+E:\Important File\Programs\C#\BITM\249512\MyWinApp\MyWinApp\obj\Debug\MyWinApp.BankInfo.resources

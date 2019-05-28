@@ -52,6 +52,12 @@
     <Compile Include="ArrayForm.Designer.cs">
       <DependentUpon>ArrayForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="BankInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BankInfo.Designer.cs">
+      <DependentUpon>BankInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="CustomerForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +80,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="ArrayForm.resx">
       <DependentUpon>ArrayForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BankInfo.resx">
+      <DependentUpon>BankInfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CustomerForm.resx">
       <DependentUpon>CustomerForm.cs</DependentUpon>

@@ -19,7 +19,8 @@ namespace MyWinApp
             //Application.Run(new HomeForm());
             //Application.Run(new ArrayForm());
             //Application.Run(new ListForm());
-            Application.Run(new CustomerForm());
+            //Application.Run(new CustomerForm());
+            Application.Run(new BankInfo());
         }
     }
 }
