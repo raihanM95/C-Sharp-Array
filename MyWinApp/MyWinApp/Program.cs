@@ -18,7 +18,8 @@ namespace MyWinApp
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new HomeForm());
             //Application.Run(new ArrayForm());
-            Application.Run(new ListForm());
+            //Application.Run(new ListForm());
+            Application.Run(new CustomerForm());
         }
     }
 }

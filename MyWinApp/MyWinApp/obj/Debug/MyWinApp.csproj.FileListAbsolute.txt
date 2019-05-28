@@ -31,3 +31,16 @@ E:\249512\C-Sharp-Array\MyWinApp\MyWinApp\obj\Debug\MyWinApp.csproj.CoreCompileI
 E:\249512\C-Sharp-Array\MyWinApp\MyWinApp\obj\Debug\MyWinApp.exe
 E:\249512\C-Sharp-Array\MyWinApp\MyWinApp\obj\Debug\MyWinApp.pdb
 E:\249512\C-Sharp-Array\MyWinApp\MyWinApp\obj\Debug\MyWinApp.ListForm.resources
+G:\New folder\C-Sharp-Array\MyWinApp\MyWinApp\bin\Debug\MyWinApp.exe.config
+G:\New folder\C-Sharp-Array\MyWinApp\MyWinApp\bin\Debug\MyWinApp.exe
+G:\New folder\C-Sharp-Array\MyWinApp\MyWinApp\bin\Debug\MyWinApp.pdb
+G:\New folder\C-Sharp-Array\MyWinApp\MyWinApp\obj\Debug\MyWinApp.csprojAssemblyReference.cache
+G:\New folder\C-Sharp-Array\MyWinApp\MyWinApp\obj\Debug\MyWinApp.ArrayForm.resources
+G:\New folder\C-Sharp-Array\MyWinApp\MyWinApp\obj\Debug\MyWinApp.HomeForm.resources
+G:\New folder\C-Sharp-Array\MyWinApp\MyWinApp\obj\Debug\MyWinApp.ListForm.resources
+G:\New folder\C-Sharp-Array\MyWinApp\MyWinApp\obj\Debug\MyWinApp.Properties.Resources.resources
+G:\New folder\C-Sharp-Array\MyWinApp\MyWinApp\obj\Debug\MyWinApp.csproj.GenerateResource.cache
+G:\New folder\C-Sharp-Array\MyWinApp\MyWinApp\obj\Debug\MyWinApp.csproj.CoreCompileInputs.cache
+G:\New folder\C-Sharp-Array\MyWinApp\MyWinApp\obj\Debug\MyWinApp.exe
+G:\New folder\C-Sharp-Array\MyWinApp\MyWinApp\obj\Debug\MyWinApp.pdb
+G:\New folder\C-Sharp-Array\MyWinApp\MyWinApp\obj\Debug\MyWinApp.CustomerForm.resources
