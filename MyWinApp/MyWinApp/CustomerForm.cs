@@ -23,15 +23,36 @@ namespace MyWinApp
 
         private void SaveButton_Click(object sender, EventArgs e)
         {
-            string user;
-            string name;
-            int age;
-
             try
             {
+                userLabel.Text = "";
+
+                string user;
+                string name;
+                int age;
+
+                user = userTextBox.Text;
+
+                if (String.IsNullOrEmpty(user))
+                {
+                    MessageBox.Show("User is required");
+                    return;
+                }
+
+                if (UserExists(userTextBox.Text))
+                {
+                    userLabel.Text = "User '" + user + "' already Exists!!";
+                    return;
+                }
+
                 if (String.IsNullOrEmpty(ageTextBox.Text))
                 {
                     MessageBox.Show("Age is required");
+                    return;
+                }
+                else if (!Int32.TryParse(ageTextBox.Text, out int result))
+                {
+                    MessageBox.Show("Age Invalied!!");
                     return;
                 }
 
@@ -61,6 +82,18 @@ namespace MyWinApp
                 message = message + " " + (index + 1) + "\t" + users[index] + "\t" + names[index] + "\t" + ages[index] + "\n";
             }
             return message;
+        }
+
+        private bool UserExists(string user)
+        {
+            bool isExists = false;
+
+            foreach(string userCheck in users)
+            {
+                if (userCheck == user)
+                    isExists = true;
+            }
+            return isExists;
         }
     }
 }

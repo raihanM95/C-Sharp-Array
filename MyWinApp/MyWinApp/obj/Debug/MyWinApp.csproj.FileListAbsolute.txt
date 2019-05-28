@@ -18,7 +18,6 @@ E:\Important File\Programs\C#\BITM\249512\MyWinApp\MyWinApp\obj\Debug\MyWinApp.P
 E:\Important File\Programs\C#\BITM\249512\MyWinApp\MyWinApp\obj\Debug\MyWinApp.csproj.GenerateResource.cache
 E:\Important File\Programs\C#\BITM\249512\MyWinApp\MyWinApp\obj\Debug\MyWinApp.exe
 E:\Important File\Programs\C#\BITM\249512\MyWinApp\MyWinApp\obj\Debug\MyWinApp.pdb
-E:\Important File\Programs\C#\BITM\249512\MyWinApp\MyWinApp\obj\Debug\MyWinApp.csprojResolveAssemblyReference.cache
 E:\249512\C-Sharp-Array\MyWinApp\MyWinApp\bin\Debug\MyWinApp.exe.config
 E:\249512\C-Sharp-Array\MyWinApp\MyWinApp\bin\Debug\MyWinApp.exe
 E:\249512\C-Sharp-Array\MyWinApp\MyWinApp\bin\Debug\MyWinApp.pdb
@@ -44,3 +43,7 @@ G:\New folder\C-Sharp-Array\MyWinApp\MyWinApp\obj\Debug\MyWinApp.csproj.CoreComp
 G:\New folder\C-Sharp-Array\MyWinApp\MyWinApp\obj\Debug\MyWinApp.exe
 G:\New folder\C-Sharp-Array\MyWinApp\MyWinApp\obj\Debug\MyWinApp.pdb
 G:\New folder\C-Sharp-Array\MyWinApp\MyWinApp\obj\Debug\MyWinApp.CustomerForm.resources
+E:\Important File\Programs\C#\BITM\249512\MyWinApp\MyWinApp\obj\Debug\MyWinApp.CustomerForm.resources
+E:\Important File\Programs\C#\BITM\249512\MyWinApp\MyWinApp\obj\Debug\MyWinApp.ListForm.resources
+E:\Important File\Programs\C#\BITM\249512\MyWinApp\MyWinApp\obj\Debug\MyWinApp.csprojAssemblyReference.cache
+E:\Important File\Programs\C#\BITM\249512\MyWinApp\MyWinApp\obj\Debug\MyWinApp.csproj.CoreCompileInputs.cache

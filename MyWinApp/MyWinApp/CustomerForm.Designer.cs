@@ -36,6 +36,7 @@
             this.nameTextBox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.ageTextBox = new System.Windows.Forms.TextBox();
+            this.userLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // SaveButton
@@ -104,11 +105,21 @@
             this.ageTextBox.Size = new System.Drawing.Size(136, 20);
             this.ageTextBox.TabIndex = 2;
             // 
+            // userLabel
+            // 
+            this.userLabel.AutoSize = true;
+            this.userLabel.ForeColor = System.Drawing.Color.Red;
+            this.userLabel.Location = new System.Drawing.Point(266, 67);
+            this.userLabel.Name = "userLabel";
+            this.userLabel.Size = new System.Drawing.Size(0, 13);
+            this.userLabel.TabIndex = 4;
+            // 
             // CustomerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(412, 411);
+            this.Controls.Add(this.userLabel);
             this.Controls.Add(this.showRichTextBox);
             this.Controls.Add(this.ageTextBox);
             this.Controls.Add(this.label3);
@@ -134,5 +145,6 @@
         private System.Windows.Forms.TextBox nameTextBox;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox ageTextBox;
+        private System.Windows.Forms.Label userLabel;
     }
 }
