@@ -54,7 +54,7 @@
             this.label9 = new System.Windows.Forms.Label();
             this.accountNumberTextBox = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.amountTextBox = new System.Windows.Forms.TextBox();
             this.DepositButton = new System.Windows.Forms.Button();
             this.WithdrawButton = new System.Windows.Forms.Button();
             this.BalanceButton = new System.Windows.Forms.Button();
@@ -297,12 +297,12 @@
             this.label10.TabIndex = 0;
             this.label10.Text = "Amount";
             // 
-            // textBox1
+            // amountTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(801, 240);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(222, 26);
-            this.textBox1.TabIndex = 1;
+            this.amountTextBox.Location = new System.Drawing.Point(801, 240);
+            this.amountTextBox.Name = "amountTextBox";
+            this.amountTextBox.Size = new System.Drawing.Size(222, 26);
+            this.amountTextBox.TabIndex = 1;
             // 
             // DepositButton
             // 
@@ -345,7 +345,7 @@
             this.Controls.Add(this.showRichTextBox);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.amountTextBox);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.accountNumberTextBox);
             this.Controls.Add(this.label9);
@@ -385,7 +385,7 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox accountNumberTextBox;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox amountTextBox;
         private System.Windows.Forms.Button DepositButton;
         private System.Windows.Forms.Button WithdrawButton;
         private System.Windows.Forms.Button BalanceButton;

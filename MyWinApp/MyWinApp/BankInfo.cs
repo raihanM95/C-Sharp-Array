@@ -12,14 +12,15 @@ namespace MyWinApp
 {
     public partial class BankInfo : Form
     {
+        // List
         List<string> users = new List<string>();
         List<string> firstNames = new List<string>();
         List<string> lastNames = new List<string>();
-        List<string> contacts = new List<string>();
+        List<int> contacts = new List<int>();
         List<string> emails = new List<string>();
         List<string> addresses = new List<string>();
-        List<string> accountsNo = new List<string>();
-        List<int> amount = new List<int>();
+        List<int> accountsNo = new List<int>();
+        List<int> balances = new List<int>();
 
         public BankInfo()
         {
@@ -30,6 +31,7 @@ namespace MyWinApp
         {
             try
             {
+                // Validation check label
                 checkUserLabel.Text = "";
                 checkContactLabel.Text = "";
                 checkEmailLabel.Text = "";
@@ -38,17 +40,16 @@ namespace MyWinApp
                 string user = userNameTextBox.Text;
                 string fName = firstNameTextBox.Text;
                 string lName = lastNameTextBox.Text;
-                string contact = contactNoTextBox.Text;
                 string email = emailTextBox.Text;
                 string address = addressTextBox.Text;
-                string accountNo = accountNoTextBox.Text;
 
+                // Input validation
                 if (String.IsNullOrEmpty(user))
                 {
                     checkUserLabel.Text = "This field is required";
                     return;
                 }
-                else if (String.IsNullOrEmpty(contact))
+                else if (String.IsNullOrEmpty(contactNoTextBox.Text))
                 {
                     checkContactLabel.Text = "This field is required";
                     return;
@@ -58,12 +59,45 @@ namespace MyWinApp
                     checkEmailLabel.Text = "This field is required";
                     return;
                 }
-                else if (String.IsNullOrEmpty(accountNo))
+                else if (String.IsNullOrEmpty(accountNoTextBox.Text))
                 {
                     checkAccountLabel.Text = "This field is required";
                     return;
                 }
 
+                if (System.Text.RegularExpressions.Regex.IsMatch(contactNoTextBox.Text, "[^0-9]"))
+                {
+                    checkContactLabel.Text = "Please enter only numbers!";
+                    return;
+                }
+
+                if (contactNoTextBox.TextLength != 11)
+                {
+                    checkContactLabel.Text = "Enter Contact No. 11 numeric digits only!";
+                    return;
+                }
+
+                if (!email.Contains("@"))
+                {
+                    checkEmailLabel.Text = "Please enter correct email!";
+                    return;
+                }
+
+                if (System.Text.RegularExpressions.Regex.IsMatch(accountNoTextBox.Text, "[^0-9]"))
+                {
+                    checkAccountLabel.Text = "Please enter only numeric Account No";
+                    return;
+                }
+
+                if (accountNoTextBox.TextLength != 9)
+                {
+                    checkAccountLabel.Text = "Enter only 9 numeric digits Account No";
+                    return;
+                }
+
+                int contact = Convert.ToInt32(contactNoTextBox.Text);
+                int accountNo = Convert.ToInt32(accountNoTextBox.Text);
+                
                 if (UserExists(user))
                 {
                     checkUserLabel.Text = "Duplicate username found!";
@@ -92,6 +126,7 @@ namespace MyWinApp
                 emails.Add(email);
                 addresses.Add(address);
                 accountsNo.Add(accountNo);
+                balances.Add(0);
 
                 showRichTextBox.Text = Display();
             }
@@ -108,17 +143,74 @@ namespace MyWinApp
 
         private void DepositButton_Click(object sender, EventArgs e)
         {
+            int amount;
+            int index;
 
+            index = IsValidAccountNumber();
+            if (index < 0)
+            {
+                if (index == -1)
+                {
+                    MessageBox.Show("Account No. is not valid! \nEnter a correct Account");
+                    return;
+                }
+                else
+                {
+                    return;
+                }
+            }
+            else
+            {
+                amount = Convert.ToInt32(amountTextBox.Text);
+                balances[index] += amount;
+            }
         }
 
         private void WithdrawButton_Click(object sender, EventArgs e)
         {
+            int amount;
+            int index;
 
+            index = IsValidAccountNumber();
+            if (index < 0)
+            {
+                if (index == -1)
+                {
+                    MessageBox.Show("Account No. is not valid! \nEnter a correct Account");
+                    return;
+                }
+                else
+                {
+                    return;
+                }
+            }
+            else
+            {
+                amount = Convert.ToInt32(amountTextBox.Text);
+                balances[index] -= amount;
+            }
         }
 
         private void BalanceButton_Click(object sender, EventArgs e)
         {
-
+            int index;
+            index = IsValidAccountNumber();
+            if (index < 0)
+            {
+                if (index == -1)
+                {
+                    MessageBox.Show("Account No. is not valid! \nEnter a correct Account");
+                    return;
+                }
+                else
+                {
+                    return;
+                }
+            }
+            else
+            {
+                MessageBox.Show("Balance is: " + balances[index]);
+            }
         }
 
         private string Display()
@@ -134,6 +226,40 @@ namespace MyWinApp
             return message;
         }
 
+        private int IsValidAccountNumber()
+        {
+            int accountNumber;
+            int index;
+
+            if (String.IsNullOrEmpty(accountNumberTextBox.Text))
+            {
+                MessageBox.Show("Enter Account Number!");
+                return -2;
+            }
+
+            if (System.Text.RegularExpressions.Regex.IsMatch(accountNumberTextBox.Text, "[^0-9]"))
+            {
+                MessageBox.Show("Please enter only numeric Account No");
+                return -2;
+            }
+
+            accountNumber = Convert.ToInt32(accountNumberTextBox.Text);
+            index = AccountNumberToIndex(accountNumber);
+            return index;
+        }
+
+        private int AccountNumberToIndex(int accountNumber)
+        {
+            for (int index = 0; index < accountsNo.Count; index++)
+            {
+                if (accountsNo[index] == accountNumber)
+                {
+                    return index;
+                }
+            }
+            return -1;
+        }
+
         private bool UserExists(string user)
         {
             bool isExists = false;
@@ -146,11 +272,11 @@ namespace MyWinApp
             return isExists;
         }
 
-        private bool ContactExists(string contact)
+        private bool ContactExists(int contact)
         {
             bool isExists = false;
 
-            foreach (string contactCheck in contacts)
+            foreach (int contactCheck in contacts)
             {
                 if (contactCheck == contact)
                     isExists = true;
@@ -170,11 +296,11 @@ namespace MyWinApp
             return isExists;
         }
 
-        private bool AccountNoExists(string account)
+        private bool AccountNoExists(int account)
         {
             bool isExists = false;
 
-            foreach (string accountCheck in accountsNo)
+            foreach (int accountCheck in accountsNo)
             {
                 if (accountCheck == account)
                     isExists = true;
